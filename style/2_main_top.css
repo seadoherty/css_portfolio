@@ -5,14 +5,14 @@ main {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-div.top {
+.top {
     height: 270px;
     margin: 10px;
     display: flex;
     justify-content: flex-end;
 }
 
-div.top div.left {
+.top div.left {
     height: 270px;
     width: 470px;
     margin-right: 40px;
@@ -22,17 +22,17 @@ div.top div.left {
     justify-content: center;
 }
 
-div.top div.left img {
+.top div.left img {
     height: 260px;
     width: 395px;
 }
 
-div.top div.right {
+.top div.right {
     height: 270px;
     width: 600px;   
 }
 
- div.cardTop {
+.cardTop {
     height: 40px;
     line-height: 40px;
     font-size: 20px;
@@ -42,12 +42,12 @@ div.top div.right {
     padding-left: 20px;
     font-weight: bold;
 }
-div.cardContent {
+.cardContent {
     background: linear-gradient(90deg, rgba(254,254,254,1) 0%, rgba(218,203,217,1) 100%);
     height: 230px;
     color: black;
 }
 
-div.cardContent p {
+.cardContent p {
     padding: 10px;
 }

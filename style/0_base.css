@@ -1,19 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
 }
 
-div.wrapper{
+.wrapper {
     background-color: #F1F1F1;
     width: 1000px;
     height: 970px;
     margin: 0 auto;
 }
 
-a{
+a {
     color: black;
 }

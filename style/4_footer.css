@@ -7,7 +7,7 @@ footer {
     line-height: 18px;
 }
 
-div.contactDetails {
+.contactDetails {
     align-self: center;
 }
 
@@ -26,11 +26,11 @@ img.socials {
     vertical-align:middle
 }
 
-div.footerSocials {
+.footerSocials {
     align-self: center;
     margin-top: 14px;
 }
 
-a.socialText {
+.socialText {
     margin-left: 5px;
 }
