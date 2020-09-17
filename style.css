@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input:hover{cursor: pointer;}
+
+/* width > height > margin > padding > flex > text > background > other*/
+/* WIDTH */
+.wide18 {width: 18px;}
+.wide40 {width: 40px;}
+.wide300 {width: 300px;}
+.wide395 {width: 395px;}
+.wide400 {width: 400px;}
+.wide470 {width: 470px;}
+.wide600 {width: 600px;}
+.wide1000 {width: 1000px;}
+/* HEIGHT */
+.tall18 {height: 18px;}
+.tall40 {height: 40px;}
+.tall50 {height: 50px;}
+.tall60 {height: 60px;}
+.tall160 {height: 160px;}
+.tall230 {height: 230px;}
+.tall260 {height: 260px;}
+.tall270 {height: 270px;}
+.tall490 {height: 490px;}
+.tall550 {height: 550px;}
+.tall840 {height: 840px;}
+.tall970 {height: 970px;}
+/* MARGINS */
+.margCenter {margin: 0 auto;}
+.marg5 {margin: 5px;}
+.marg10 {margin: 10px;}
+.margT10 {margin-top: 10px;}
+.margL5 {margin-left: 5px;}
+.margL10 {margin-left: 10px;}
+.margL20 {margin-left: 20px;}
+.margL30 {margin-left: 30px;}
+.margL160 {margin-left: 160px;}
+.margR40 {margin-right: 40px;}
+/* PADDING */
+.pad5 {padding: 5px;}
+.pad10 {padding: 10px;}
+.padL20 {padding-left: 20px;}
+/* FLEXBOX */
+.flex {display: flex;}
+.flexCol {flex-direction: column;}
+.startL {justify-content: flex-start;}
+.endR {justify-content: flex-end;}
+.centerLR {justify-content: center;}
+.centerUD {align-items: center;}
+.selfCenterLR {align-self: center;}
+.selfEnd {align-self: baseline;}
+/* TEXT */
+.text18 {font-size: 18px;}
+.text20 {font-size: 20px;}
+.text30 {font-size: 30px;}
+.textBold {font-weight: bold;}
+.textWhite {color: white;}
+.textBlack {color: black;}
+.textStyleComic {font-family: "Comic Sans MS", cursive, sans-serif;}
+.textStyleVeranda {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+/* BACKGROUND */
+.backBlack {background-color: black;}
+.backGrey {background-color: grey;}
+.backWhite-ish {background-color: #F1F1F1;}
+.backGreen-ish {background-color: #407D61;}
+.backPurpleFade {background-image: radial-gradient(circle, #6f5964, #59454d, #433138, #2f1f24, #1c0c10);}
+.backPinkFade {background: linear-gradient(90deg, rgba(254, 254, 254, 1) 0%, rgba(218, 203, 217, 1) 100%);}
+.backGreyFade {background: linear-gradient(0deg, rgba(179, 178, 182, 1) 0%, rgba(137, 135, 149, 1) 50%, rgba(179, 178, 182, 1) 100%);}
+/* OTHER */
+.borderRound{border-radius: 10px;}
+.borderGreen-ish{border-color: #2C5D47;}
+.shadow{box-shadow: 3px 3px 5px rgb(189, 185, 185);}

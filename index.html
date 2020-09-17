@@ -5,117 +5,129 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS | Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style/0_base.css">
-    <link rel="stylesheet" type="text/css" href="style/1_header.css">
-    <link rel="stylesheet" type="text/css" href="style/2_main_top.css">
-    <link rel="stylesheet" type="text/css" href="style/3_main_bottom.css">
-    <link rel="stylesheet" type="text/css" href="style/4_footer.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<body>
-    <div class="wrapper">
-        <header>
-            <div class="left">Jayne Doe</div>
-            <div class="right">Master of shadows and the Internet!</div>
+<body class="backBlack">
+    <div class="wide1000 tall970 margCenter backWhite-ish">
+        <header class="tall50 flex startL centerUD">
+            <div class="wide400 margL20 text30 textStyleComic">Jayne Doe</div>
+            <div class="wide400 margL160 text20 flex endR">Master of shadows and the Internet!</div>
         </header>
-        <main>
-            <div class="top">
-                <div class="left">
-                    <img src="images/photo_of_me.jpg" alt="profile photo">
+        <main class="tall840 pad10 textStyleVeranda backPurpleFade">
+            <div class="flex marg10 tall270 endR">
+                <div class="flex wide470 tall270 centerLR centerUD margR40 backGrey">
+                    <img src="images/photo_of_me.jpg" alt="profile photo" class="wide395 tall260">
                 </div>
-                <div class="right">
-                    <div class="cardTop">About...</div>
-                    <div class="cardContent">
-                        <p>Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deserunt eaque,
+                <div class="wide600 tall270">
+                    <div class="tall40 text20 textWhite padL20 textBold backGreyFade flex centerUD">About...</div>
+                    <div class="tall230 textBlack backPinkFade">
+                        <p class="pad10">Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+                            deserunt eaque,
                             impedit error possimus distinctio numquam sunt necessitatibus, quidem totam deleniti ipsa
                             assumenda eum enim tempora iure adipisci nobis. Placeat.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rem excepturi alias
+                        <p class="pad10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique rem
+                            excepturi alias
                             incidunt necessitatibus corrupti, quis porro, reprehenderit ab eligendi omnis quibusdam est
                             .</p>
-                        <p><a href="#">Continue reading...</a></p>
+                        <p class="pad10"><a href="#" class="textBlack">Continue reading...</a></p>
                     </div>
                 </div>
             </div>
-            <div class="bottom">
-                <div class="leftCard">
-                    <div class="cardTop">La Mode</div>
-                    <div class="cardContent">
-                        <img src="images/lamode.png" alt="La Mode" class="webPreview">
-                        <p>Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deserunt eaque,
+            <div class="tall550 flex marg10 centerLR">
+                <div class="margT10 wide300 leftCard">
+                    <div class="tall40 text20 textWhite padL20 textBold backGreyFade flex centerUD">La Mode</div>
+                    <div class="tall490 textBlack backPinkFade">
+                        <img src="images/lamode.png" alt="La Mode" class="wide300 tall160">
+                        <p class="pad10">Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+                            deserunt eaque,
                             impedit quidem totam deleniti ipsa assumenda eum enim tempora iure adipisci nobis. Placeat.
                         </p>
-                        <div class="cardTop techTitle">Technologies:</div>
-                        <img src="images/icons/php.png" alt="PHP" class="icon">
-                        <img src="images/icons/codeigniter.png" alt="codeigniter" class="icon">
-                        <img src="images/icons/jQuery.png" alt="JQuery" class="icon">
-                        <img src="images/icons/ajax.png" alt="AJAX" class="icon">
-                        <img src="images/icons/mysql.png" alt="MySQL" class="icon">
-                        <img src="images/icons/HTML.png" alt="HTML" class="icon">
-                        <img src="images/icons/CSS.png" alt="CSS" class="icon">
-                        <img src="images/icons/bootstrap.png" alt="bootstrap" class="icon">
-                        <div class="techButton">
-                            <input type="submit" value="La Mode">
+                        <div class="tall40 text20 textWhite padL20 textBold backGreyFade flex centerUD margT10">
+                            Technologies:</div>
+                        <img src="images/icons/php.png" alt="PHP" class="wide40 tall40 marg5">
+                        <img src="images/icons/codeigniter.png" alt="codeigniter" class="wide40 tall40 marg5">
+                        <img src="images/icons/jQuery.png" alt="JQuery" class="wide40 tall40 marg5">
+                        <img src="images/icons/ajax.png" alt="AJAX" class="wide40 tall40 marg5">
+                        <img src="images/icons/mysql.png" alt="MySQL" class="wide40 tall40 marg5">
+                        <img src="images/icons/HTML.png" alt="HTML" class="wide40 tall40 marg5">
+                        <img src="images/icons/CSS.png" alt="CSS" class="wide40 tall40 marg5">
+                        <img src="images/icons/bootstrap.png" alt="bootstrap" class="wide40 tall40 marg5">
+                        <div class="flex centerLR">
+                            <input type="submit" value="La Mode" class="pad5 textBold textWhite backGreen-ish borderRound borderGreen-ish shadow">
                         </div>
                     </div>
                 </div>
-                <div class="leftCard nextCard">
-                    <div class="cardTop">Family</div>
-                    <div class="cardContent">
-                        <img src="images/familycontacts.png" alt="Family" class="webPreview">
-                        <p>Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deserunt eaque,
+                <div class="margT10 wide300 leftCard margL30">
+                    <div class="tall40 text20 textWhite padL20 textBold backGreyFade flex centerUD">Family</div>
+                    <div class="tall490 textBlack backPinkFade">
+                        <img src="images/familycontacts.png" alt="Family" class="wide300 tall160">
+                        <p class="pad10">Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+                            deserunt eaque,
                             impedit quidem totam deleniti ipsa assumenda eum enim tempora iure adipisci nobis. Placeat.
                         </p>
-                        <div class="cardTop techTitle">Technologies:</div>
-                        <img src="images/icons/JavaScript.png" alt="JavaScript" class="icon">
-                        <img src="images/icons/mongodb.png" alt="mongodb" class="icon">
-                        <img src="images/icons/expressjs.png" alt="expressjs" class="icon">
-                        <img src="images/icons/angular.png" alt="angular" class="icon">
-                        <img src="images/icons/nodejs.png" alt="nodejs" class="icon">
-                        <img src="images/icons/HTML.png" alt="HTML" class="icon">
-                        <img src="images/icons/CSS.png" alt="CSS" class="icon">
-                        <img src="images/icons/socket.png" alt="socket" class="icon">
-                        <div class="techButton">
-                            <input type="submit" value="Family">
+                        <div class="tall40 text20 textWhite padL20 textBold backGreyFade flex centerUD margT10">
+                            Technologies:</div>
+                        <img src="images/icons/JavaScript.png" alt="JavaScript" class="wide40 tall40 marg5">
+                        <img src="images/icons/mongodb.png" alt="mongodb" class="wide40 tall40 marg5">
+                        <img src="images/icons/expressjs.png" alt="expressjs" class="wide40 tall40 marg5">
+                        <img src="images/icons/angular.png" alt="angular" class="wide40 tall40 marg5">
+                        <img src="images/icons/nodejs.png" alt="nodejs" class="wide40 tall40 marg5">
+                        <img src="images/icons/HTML.png" alt="HTML" class="wide40 tall40 marg5">
+                        <img src="images/icons/CSS.png" alt="CSS" class="wide40 tall40 marg5">
+                        <img src="images/icons/socket.png" alt="socket" class="wide40 tall40 marg5">
+                        <div class="flex centerLR">
+                            <input type="submit" value="Family" class="pad5 textBold textWhite backGreen-ish borderRound borderGreen-ish shadow">
                         </div>
                     </div>
                 </div>
-                <div class="leftCard nextCard">
-                    <div class="cardTop">fiveEleven</div>
-                    <div class="cardContent">
-                        <img src="images/fiveEleven.png" alt="fiveEleven" class="webPreview">
-                        <p>Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, deserunt eaque,
+                <div class="margT10 wide300 leftCard margL30">
+                    <div class="tall40 text20 textWhite padL20 textBold backGreyFade flex centerUD">fiveEleven</div>
+                    <div class="tall490 textBlack backPinkFade">
+                        <img src="images/fiveEleven.png" alt="fiveEleven" class="wide300 tall160">
+                        <p class="pad10">Hello! Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
+                            deserunt eaque,
                             impedit quidem totam deleniti ipsa assumenda eum enim tempora iure adipisci nobis. Placeat.
                         </p>
-                        <div class="cardTop techTitle">Technologies:</div>
-                        <img src="images/icons/python.png" alt="python" class="icon">
-                        <img src="images/icons/django.png" alt="django" class="icon">
-                        <img src="images/icons/d3.png" alt="d3" class="icon">
-                        <img src="images/icons/angular.png" alt="angular" class="icon">
-                        <img src="images/icons/sqlite.png" alt="sqlite" class="icon">
-                        <img src="images/icons/HTML.png" alt="HTML" class="icon">
-                        <img src="images/icons/CSS.png" alt="CSS" class="icon">
-                        <img src="images/icons/JavaScript.png" alt="JavaScript" class="icon">
-                        <img src="images/icons/materialize.png" alt="materialize" class="icon">
-                        <div class="techButton">
-                            <input type="submit" value="fiveEleven">
+                        <div class="tall40 text20 textWhite padL20 textBold backGreyFade flex centerUD margT10">
+                            Technologies:</div>
+                        <img src="images/icons/python.png" alt="python" class="wide40 tall40 marg5">
+                        <img src="images/icons/django.png" alt="django" class="wide40 tall40 marg5">
+                        <img src="images/icons/d3.png" alt="d3" class="wide40 tall40 marg5">
+                        <img src="images/icons/angular.png" alt="angular" class="wide40 tall40 marg5">
+                        <img src="images/icons/sqlite.png" alt="sqlite" class="wide40 tall40 marg5">
+                        <img src="images/icons/HTML.png" alt="HTML" class="wide40 tall40 marg5">
+                        <img src="images/icons/CSS.png" alt="CSS" class="wide40 tall40 marg5">
+                        <img src="images/icons/JavaScript.png" alt="JavaScript" class="wide40 tall40 marg5">
+                        <img src="images/icons/materialize.png" alt="materialize" class="wide40 tall40 marg5">
+                        <div class="flex centerLR">
+                            <input type="submit" value="fiveEleven" class="pad5 textBold textWhite backGreen-ish borderRound borderGreen-ish shadow">
                         </div>
                     </div>
                 </div>
 
             </div>
         </main>
-        <footer>
-            <div class="contactDetails">jdoe@gmails.com | 206-555-1212</div>
-            <div class="footerSocials">
-                <ul>
-                    <li><img src="images/social/github.png" alt='github' class="socials"><a href="#"
-                            class="socialText">jaynedev</a></li>
-                    <li><img src="images/social/linkedin.png" alt='linkedin' class="socials"><a href="#"
-                            class="socialText">jayne-doe</a></li>
-                    <li><img src="images/social/twitter.png" alt='twitter' class="socials"><a href="#"
-                            class="socialText">jdtweets</a></li>
-                    <li><img src="images/social/codepen.png" alt='codepen' class="socials"><a href="#"
-                            class="socialText">jaynedev</a></li>
+        <footer class="flex flexCol centerLR tall60 text18">
+            <div class="selfCenterLR">jdoe@gmails.com | 206-555-1212</div>
+            <div class="margT10 selfCenterLR">
+                <ul class="flex">
+                    <li class="flex centerUD">
+                        <img src="images/social/github.png" alt='github' class="wide18 tall18 margL10">
+                        <a href="#" class="margL5 textBlack">jaynedev</a>
+                    </li>
+                    <li class="flex centerUD">
+                        <img src="images/social/linkedin.png" alt='linkedin' class="wide18 tall18 margL10">
+                        <a href="#" class="margL5 textBlack">jayne-doe</a>
+                    </li>
+                    <li class="flex centerUD">
+                        <img src="images/social/twitter.png" alt='twitter' class="wide18 tall18 margL10">
+                        <a href="#" class="margL5 textBlack">jdtweets</a>
+                    </li>
+                    <li class="flex centerUD">
+                        <img src="images/social/codepen.png" alt='codepen' class="wide18 tall18 margL10">
+                        <a href="#" class="margL5 textBlack">jaynedev</a>
+                    </li>
                 </ul>
             </div>
         </footer>
